@@ -1,0 +1,18 @@
+loader ship
+
+variables
+	* crate limit (1, 2, 3, 4, 6)
+	* speed
+	* health
+	* loading speed
+	* unloading speed
+	* air unit? (land/air)
+	* follow player? (true/false)
+	* which to load and unload
+	* is loaded
+
+behavior
+	* follow player (if follow command)
+	* determine where to load and unload
+	* go to player, loading station and unloading station
+	* queue if there are already loader ship in the loading area
